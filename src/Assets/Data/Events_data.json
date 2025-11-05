@@ -16,7 +16,7 @@
     "coordinator1_mobile": "9606370088",
     "event_coordinator2": "Madhan Kumar",
     "coordinator2_mobile": "9019410439",
-    "colour_code": "#FF50B4",
+    "colour_code": "rgb(252, 131, 1)",
     "button_id": "btn_2fd4ae115386",
     "img_path": "/photography.jpg"
   },
@@ -37,9 +37,9 @@
     "coordinator1_mobile": "9620146061",
     "event_coordinator2": "Neha",
     "coordinator2_mobile": "9483385186",
-    "colour_code": "#FF50B4",
+    "colour_code": "rgb(252, 131, 1)",
     "button_id": "btn_4879650b53d9",
-    "img_path": "/ff.jpg"
+    "img_path":"/ff.jpg"
   },
   {
     "title": "Figma Clash",
@@ -58,7 +58,7 @@
     "coordinator1_mobile": "7899320330",
     "event_coordinator2": "Ritvik K",
     "coordinator2_mobile": "9108208731",
-    "colour_code": "#FF50B4",
+    "colour_code": "rgb(252, 131, 1)",
     "button_id": "btn_b30c65bade75",
     "img_path": "/tech.jpg"
   },
@@ -79,7 +79,7 @@
     "coordinator1_mobile": "9998283468",
     "event_coordinator2": "Saransh Neema",
     "coordinator2_mobile": "9516522604",
-    "colour_code": "#FF50B4",
+    "colour_code": "rgb(252, 131, 1)",
     "button_id": "btn_9aa58e0dc5e9",
     "img_path": "/bgm.jpg"
   },
@@ -100,9 +100,9 @@
     "coordinator1_mobile": "7899320330",
     "event_coordinator2": "Sathwik Shetty",
     "coordinator2_mobile": "9620146061",
-    "colour_code": "#FF50B4",
+    "colour_code": "rgb(252, 131, 1)",
     "button_id": "btn_bd816d0c31e3",
-    "img_path": "/th.png"
+    "img_path": "/th.jpg"
   },
   {
     "title": "Free Fire",
@@ -121,9 +121,9 @@
     "coordinator1_mobile": "9108208731",
     "event_coordinator2": "Aditya",
     "coordinator2_mobile": "9150040708",
-    "colour_code": "#FF50B4",
+    "colour_code": "rgb(252, 131, 1)",
     "button_id": "btn_b114bac2dbc5",
-    "img_path": "/db.png"
+    "img_path": "/db.jpg"
   },
   {
     "title": "Treasure Hunt",
@@ -142,7 +142,7 @@
     "coordinator1_mobile": "6364321255",
     "event_coordinator2": "ASHWINI GANESH RATOD",
     "coordinator2_mobile": "8073904992",
-    "colour_code": "#FF50B4",
+    "colour_code": "rgb(252, 131, 1)",
     "button_id": "btn_ed0e53136fc7",
     "img_path": "/ux.jpg"
   }
