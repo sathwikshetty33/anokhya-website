@@ -121,9 +121,9 @@ export default function Homee() {
                 </a>
               </div>
               <div>
-                <a href="https://discord.com/invite/Mg6Re2Kt">
+                <a href={import.meta.env.VITE_WHATSAPP_LINK}>
                   <i
-                    className="fa-brands fa-discord"
+                    className="fa-brands fa-whatsapp"
                     style={{ color: "#ffffff" }}
                   ></i>
                 </a>

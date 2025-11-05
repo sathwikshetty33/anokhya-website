@@ -1,138 +1,42 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import "./Contact_Us.css";
 import bimg from "../../Assets/bottom.png";
-import emailjs from "@emailjs/browser";
-import { Bounce, ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const Contact_Us = () => {
-  const [fname, Setfname] = useState("");
-  const [lname, Setlname] = useState("");
-  const [email, Setemail] = useState("");
-  const [query, Setquery] = useState("");
-
-  const [submitDisabled, setSubmitDisabled] = useState(false);
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    if (submitDisabled) {
-      toast.info("Please wait before submitting again.");
-      return;
-    }
-
-    emailjs.sendForm(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-      form.current,
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-    ).then(
-        (result) => {
-          toast.success("Message Sent Successfully !");
-          console.log("message sent");
-          setSubmitDisabled(true);
-          setTimeout(() => {
-            setSubmitDisabled(false);
-          }, 300000);
-          Setfname("");
-          Setlname("");
-          Setemail("");
-          Setquery("");
-          form.current.reset();
-        },
-        (error) => {
-          toast.error("Error Sending The Message");
-          console.log("error sending the message",error);
-          setSubmitDisabled(true);
-          setTimeout(() => {
-            setSubmitDisabled(false);
-          }, 300000);
-        }
-      );
-  };
+  const whatsappCommunityLink = import.meta.env.VITE_WHATSAPP_LINK; // Replace with your actual WhatsApp community link
 
   return (
     <div className="conts" id="Contact">
-      <ToastContainer
-        position="top-right"
-        autoClose={4000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-        bodyClassNameclassName="toastBody"
-      />
       <div className="conts_con">
         <div className="conts_head">CONTACT US</div>
-        <form ref={form} onSubmit={sendEmail}>
-          <div className="conts_name">
-            <input
-              type="text"
-              name="anok_fname"
-              id="fname"
-              placeholder="First Name"
-              required
-            />
-            <input
-              type="text"
-              name="anok_lname"
-              id="lname"
-              placeholder="Last Name"
-              required
-            />
-          </div>
-          <div className="conts_contact">
-            <input
-              type="email"
-              name="anok_email"
-              id="email"
-              placeholder="Email Address"
-              required
-            />
-            <input
-              type="text"
-              name="anok_ph_num"
-              id="ph_num"
-              placeholder="Phone Number"
-              required
-            />
-          </div>
-          <div className="conts_query">
-            <textarea
-              name="anok_query"
-              id="query"
-              cols="300"
-              placeholder="Enter Your Query Here ..."
-              required
-            ></textarea>
-          </div>
-          <div className="conts_submit">
-            <input type="submit" value="SUBMIT" />
-          </div>
-        </form>
+        
+        <div className="conts_whatsapp">
+          <h2 className="conts_doubts">Have any Doubts?</h2>
+          <p className="conts_join_text">Join our WhatsApp community for quick support and updates!</p>
+          <a 
+            href={whatsappCommunityLink} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="conts_whatsapp_btn"
+          >
+            <i className="fab fa-whatsapp"></i>
+            Join WhatsApp Community
+          </a>
+        </div>
+
         <div className="conts_links">
           <ul>
             <li>
               <a
                 href="https://www.instagram.com/_anokhya?igsh=MTR5Y3lhejA1NHZpMw=="
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="https://discord.com/invite/Mg6Re2Kt" target="_blank">
-                <i className="fa-brands fa-discord"></i>
-              </a>
-            </li>
-            <li>
-              <a href="mailto:techfest@anokhya.com" target="_blank">
+              <a href="mailto:techfest@anokhya.com" target="_blank" rel="noopener noreferrer">
                 <i className="fa-solid fa-envelope"></i>
               </a>
             </li>
@@ -140,14 +44,16 @@ const Contact_Us = () => {
               <a
                 href="https://www.linkedin.com/company/aimldeptdsce/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
               <a
-                href={`tel:${8197736731}`} 
+                href={`tel:${9108208731}`} 
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fas fa-phone"></i>
               </a>

@@ -4,7 +4,7 @@
     display: grid;
     place-items: center;
 }
-.conts_con,form{
+.conts_con{
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -17,59 +17,59 @@
     font-size: 30px;
     border-bottom: solid 2px orange;
 }
-.conts_name,.conts_contact,.conts_query{
+
+/* WhatsApp Community Section */
+.conts_whatsapp {
     display: flex;
-    gap: 10px;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+    text-align: center;
 }
-.conts_name input,.conts_contact input{
-    width: 100%;
-    max-width:47%;
-    height: 45px;
-    background-color: rgba(112, 111, 111, 0.291);
-    border: solid 2px rgba(255, 255, 255, 0);
-    outline: none;
-    border-radius: 4px;
-    color: orange;
-    padding: 5px 15px;
-    font-size: 17px;
-    letter-spacing: 2px;
+
+.conts_doubts {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
 }
-.conts_name input::placeholder,.conts_contact input::placeholder,.conts_query textarea::placeholder{
-    color: rgba(255, 255, 255, 0.753);
-    letter-spacing: 2px;
+
+.conts_join_text {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0;
 }
-.conts_query textarea{
-    width: 100%;
-    height: 150px;
-    background-color: rgba(112, 111, 111, 0.291);
-    border: solid 2px rgba(255, 255, 255, 0);
-    border-radius: 4px;
-    font-size: 17px;
-    padding: 5px 15px;
-    outline: none;
-    color:orange;
-}
-.conts_submit{
-    display:flex;
-    margin-left: 5px;
-}
-.conts_submit input{
-    width: 140px;
-    height: 40px;
-    cursor: pointer;
-    color:orange;
+
+.conts_whatsapp_btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
     font-size: 18px;
     font-weight: 600;
-    letter-spacing: 3px;
-    background-color: black;
-    border: solid 2px white;
-    box-shadow: 2px 2px 2px orange;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: solid 2px transparent;
+    box-shadow: 0px 4px 15px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
-.conts_submit input:hover{
-    color: white;
-    border: solid 2px orange;
-    box-shadow: 2px 2px 2px white;
+
+.conts_whatsapp_btn:hover {
+    background: linear-gradient(135deg, #128C7E, #075E54);
+    box-shadow: 0px 6px 20px rgba(37, 211, 102, 0.6);
+    transform: translateY(-2px);
+    border: solid 2px #25D366;
+}
+
+.conts_whatsapp_btn i {
+    font-size: 24px;
 }
 
 .conts_links ul {
@@ -136,13 +136,13 @@
     .conts{
         padding:30px 20px;
     }
-
 }
+
 @media(max-width:500px){
     .conts{
         padding-top: 15px;
     }
-    .conts_con,form{
+    .conts_con{
         gap: 25px;
     }
     .conts_head{
@@ -151,31 +151,30 @@
         margin-left: 20px;
         margin-bottom: 10px;
     }
-    .conts_name,.conts_contact,.conts_query{
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
+    
+    .conts_whatsapp {
+        padding: 30px 15px;
+        gap: 15px;
     }
-    .conts_name input,.conts_contact input{
-        max-width:95%;
-        width: 90%;
-        height: 45px;
-        padding: 5px 15px;
-        font-size: 15px;
+    
+    .conts_doubts {
+        font-size: 22px;
     }
-    .conts_query textarea{
-        width: 90%;
-        height: 130px;
-        font-size: 15px;
-    }
-    .conts_submit{
-        margin-left:16px;
-    }
-    .conts_submit input{
-        width: 120px;
-        height: 40px;
+    
+    .conts_join_text {
         font-size: 16px;
     }
+    
+    .conts_whatsapp_btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        gap: 10px;
+    }
+    
+    .conts_whatsapp_btn i {
+        font-size: 20px;
+    }
+
     .conts_links ul {
         margin-top: 20px;
       }
@@ -193,9 +192,4 @@
         position: relative;
         top:30px;
     }
-}
-
-.toastBody{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.2rem;
 }
