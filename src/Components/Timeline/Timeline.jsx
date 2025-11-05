@@ -12,7 +12,7 @@ function Timeline() {
             <h2>
               <b>Inaugration</b>
             </h2>
-            <small>22nd Nov 8:30 to 9:30</small>
+            <small>21st Nov 9:30 to 10:00</small>
             <p>
               Welcome to the dawn of innovation! Let the tech fest begin its
               electrifying journey.
@@ -24,12 +24,12 @@ function Timeline() {
           <div data-aos="zoom-in" className="timelineimgdiv"></div>
           <div data-aos="fade-left" className="text-box rt">
             <h2>
-              <b>Meme Splash</b>
+              <b>Free Fire - Clash for Glory</b>
             </h2>
-            <small>22nd Nov 10:00 to 12:00</small>
+            <small>21st Nov 12:00 to 16:00</small>
             <p>
-              Dive into the laughter at Meme Splash! Join the fun-filled event
-              and let the memes roll!
+              Welcome to the thrill of E-Sports! Drop in, gear up, 
+            and fight your way to victory in India’s battlegrounds. Get ready for action!
             </p>
             <span className="right-container-arrow"></span>
           </div>
@@ -38,12 +38,13 @@ function Timeline() {
           <div data-aos="zoom-in" className="timelineimgdiv"></div>
           <div data-aos="fade-right" className="text-box lt">
             <h2>
-              <b>UI/UX</b>
+              <b>Radiant Clash - Valorant Showdown</b>
             </h2>
-            <small>22nd Nov 10:00 to 12:00</small>
+            <small>21st Nov 12:00 to 16:00</small>
             <p>
-              Dive into design at UI/UX! Explore the art of user interface and
-              user experience creation.
+              Welcome to the playground to the world of Valorant, where a game isn't just Entertainment but a sensation!
+              {/* Dive into design at UI/UX! Explore the art of user interface and
+              user experience creation. */}
             </p>
 
             <span className="left-container-arrow"></span>
@@ -54,12 +55,12 @@ function Timeline() {
           <div data-aos="zoom-in" className="timelineimgdiv"></div>
           <div data-aos="fade-left" className="text-box rt">
             <h2>
-              <b>Tech Debate</b>
+              <b>Figma Clash</b>
             </h2>
-            <small>22nd Nov 10:00 to 12:00</small>
+            <small>22nd Nov 9:00 to 13:00</small>
             <p>
-            Welcome to today's tech debate, where innovation meets critical thinking!
-            Let's dive into the future, one argument at a time.
+            Dive into design at UI/UX! Explore the art of user interface and
+              user experience creation. e.
             </p>
             <span className="right-container-arrow"></span>
           </div>
@@ -69,28 +70,27 @@ function Timeline() {
           <div data-aos="zoom-in" className="timelineimgdiv"></div>
           <div data-aos="fade-right" className="text-box lt">
             <h2>
-              <b>Tresure Hunt</b>
+              <b>Accuracy is all you need</b>
+            </h2>
+            <small>22nd Nov 9:00 to 13:00</small>
+            <p>
+              Welcome to the playground of Machine Learning, where accuracy is all ypou need.
+            </p>
+            <span className="left-container-arrow"></span>
+          </div>
+        </div>
+
+        <div className="maincontainer right-container">
+          <div data-aos="zoom-in" className="timelineimgdiv"></div>
+          <div data-aos="fade-left" className="text-box rt">
+            <h2>
+              <b>Treasure Hunt</b>
             </h2>
             <small>22nd Nov 10:00 to 13:00</small>
             <p>
               Get ready to unlock mysteries and uncover hidden treasures!
               Adventure awaits at every clue—let the hunt begin!
             </p>
-            <span className="left-container-arrow"></span>
-          </div>
-        </div>
-
-        <div className="maincontainer right-container">
-          <div data-aos="zoom-in" className="timelineimgdiv"></div>
-          <div data-aos="fade-left" className="text-box rt">
-            <h2>
-              <b>photography</b>
-            </h2>
-            <small>22nd Nov 10:00 to 13:00</small>
-            <p>
-            Capture the moment, freeze the magic—every click tells a story beyond words. 
-            Let your lens reveal the world in new light!
-            </p>
             <span className="right-container-arrow"></span>
           </div>
         </div>
@@ -99,12 +99,11 @@ function Timeline() {
           <div data-aos="zoom-in" className="timelineimgdiv"></div>
           <div data-aos="fade-right" className="text-box lt">
             <h2>
-              <b>Shark Tank</b>
+              <b>Radiant Clash - Valorant Showdown - Grand Finale</b>
             </h2>
-            <small>22nd Nov 14:00 to 16:00</small>
+            <small>22nd Nov 9:00 to 12:00</small>
             <p>
-            Welcome to Shark Tank, where bold ideas meet big opportunities! 
-            Pitch your passion, convince the sharks, and make waves in the world of business.
+            The real action begins now! Witness the grand finale of Radiant Clash as top teams battle for glory and the ultimate title.
             </p>
 
             <span className="left-container-arrow"></span>
@@ -114,31 +113,24 @@ function Timeline() {
           <div data-aos="zoom-in" className="timelineimgdiv"></div>
           <div data-aos="fade-left" className="text-box rt">
             <h2>
-              <b>BGMI</b>
+              <b>Simply Automation</b>
             </h2>
-            <small>22nd Nov  Online </small>
-            <small>23rd Nov Offline 9:00 to 13:00</small>
+            <small>22nd Nov 13:00 to 16:00</small>
             <p>
-            Welcome to the thrill of BGMI! Drop in, gear up, 
-            and fight your way to victory in India’s battlegrounds. Get ready for action!
+            Automate the stuff no one wants to do. Make life simpler, one script at a time!
             </p>
             <span className="right-container-arrow"></span>
           </div>
         </div>
-
-        
-
         <div className="maincontainer left-container">
           <div data-aos="zoom-in" className="timelineimgdiv"></div>
           <div data-aos="fade-right" className="text-box lt">
             <h2>
-              <b>Free Fire</b>
+              <b>Aircrash</b>
             </h2>
-            <small>23rd Nov 9:00 to 13:00</small>
+            <small>22nd Nov 9:00 to 13:00</small>
             <p>
-            Welcome to Free Fire! Dive in, strategize, 
-            and survive in a battle where every second counts. 
-            Get ready to be the last one standing!
+            Debate + Personality + Drama, You know where it's going!
             </p>
             <span className="left-container-arrow"></span>
           </div>
@@ -150,7 +142,7 @@ function Timeline() {
             <h2>
               <b>Ending Ceremony</b>
             </h2>
-            <small>23rd Nov 14:00 to 16:00</small>
+            <small>22nd Nov 16:00 to 17:00</small>
             <p>
               The exhilarating conclusion of our tech fest promises electrifying
               performances, awards, and unforgettable memories.
