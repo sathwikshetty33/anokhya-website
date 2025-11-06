@@ -58,7 +58,11 @@ const navImages = [
                   transition={{ duration: 0.5 }}
                   className="w-20 h-20 overflow-hidden border-2 shadow-lg border border-solid border-gray-500 border-opacity-0 br-transparant"
                 >
-
+                   <img 
+                    src={navImages[currentIndex]}
+                    alt={`Nav Image ${currentIndex + 1}`}
+                    className="w-full h-full object-cover"
+                  />
 
                 </motion.div>
               </AnimatePresence>
