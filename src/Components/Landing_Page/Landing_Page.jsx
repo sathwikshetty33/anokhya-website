@@ -177,7 +177,7 @@ const navImages = [
                 </a>
               </div>
               <div>
-                <a href="mailto:techfest@anokhya.com">
+                <a href="mailto:aiml-dsce@dayanandasagar.edu">
                   <i
                     className="fa-solid fa-envelope"
                     style={{ color: "#ffffff" }}
